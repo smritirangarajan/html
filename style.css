@@ -1,0 +1,44 @@
+body {
+    font-family: "Comic Sans MS", Arial, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Papyrus";
+    color: purple;
+}
+ul{
+    display: flex;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-left: 0px;
+
+
+}
+li {
+    flex: 1;
+    list-style-type: none;
+    display: inline-block;
+    padding: 16px;
+    border: 0px;
+    border-left: 0px;
+    margin: 0px;
+    background-color: gray;
+    text-align: center;
+    
+}
+
+.changeheading:hover {
+    background-color: #AAA;
+}
+
+footer{
+    padding-top: 10px;
+    min-width: 100 vw;
+    text-align: center;
+    background-color: lightgrey;
+    color:rgb(124, 122, 122);
+    height: 60px;
+}
+
+
